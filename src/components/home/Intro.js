@@ -1,5 +1,4 @@
 import React from 'react'
-import Picture from '../../assets/me-2.JPG'
 
 const Intro = () => {
     return (
@@ -14,7 +13,7 @@ const Intro = () => {
                 <div className="row">
                     <div className="col-6 intro-section">
                         <div className="picture-container">
-                            <img src={Picture} alt="Abhishek" id="intro-picture" />
+                            <img src="https://drive.google.com/uc?id=1XNFytauagrPxRQ4nkye7GF5bVUukBltt" alt="Abhishek" id="intro-picture" />
                         </div>
                     </div>
                     <div className="col-6 intro-section">
