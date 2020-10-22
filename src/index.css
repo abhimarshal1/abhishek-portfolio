@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
 
+:root {
+  --gradient-start: #1D2671;
+  --gradient-end: #C33764;
+  --accent-color: #f5a25d;
+}
+
 body {
   margin: 0;
   font-family: "Varela", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -13,13 +19,14 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23929292' fill-opacity='0.6' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.navbar {
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23929292' fill-opacity='0.6' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 .logo {
-  width: 180px;
+  width: 120px;
+  margin-left: 5%;
 }
 
 .intro-image img {
@@ -27,44 +34,44 @@ code {
   position: relative;
 }
 
-.intro-div {
-}
-
 .my-intro {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  vertical-align: center;
 }
 
 .my-intro div {
   position: relative;
-  top: -10%;
+  top: -20%;
 }
 
-.my-intro h3 {
-  font-size: 3.5rem;
+.landing {
+  width: 100%;
+}
+
+.my-intro h4 {
+  font-size: 4rem;
   font-weight: bolder;
-  color: #f5a25d;
+  color: var(--gradient-end);
 }
 
-.my-intro h5 {
-  margin-top: 2rem;
-  color: #9ba4b4;
+.my-intro h6 {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  color: var(--gradient-start);
 }
 
 .intro-2 {
-  background: #16222a; /* fallback for old browsers */
+  background: var(--gradient-start); /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
-    #3a6073,
-    #16222a
+    var(--gradient-start),
+    var(--gradient-end)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to left,
-    #3a6073,
-    #16222a
+    var(--gradient-start),
+    var(--gradient-end)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -72,8 +79,11 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  vertical-align: center;
   padding: 3rem;
+}
+
+.intro2-row {
+  width: 100%;
 }
 
 #intro-picture {
@@ -88,25 +98,27 @@ code {
   left: 20%;
   margin-top: 2.5rem;
   margin-right: 2.5rem;
-  border: 5px solid #f5a25d;
+  border: 5px solid var(--accent-color);
   width: 45%;
 }
 
 .intro-summary {
-  text-align: center;
+  /* text-align: center; */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 2rem;
   color: white;
+  width: 95%;
 }
 
 .intro-summary div {
-  padding: 2rem;
+  position: relative;
+  left: 5%;
 }
 
 .intro-summary h5 {
-  color: #f5a25d;
+  color: var(--accent-color);
   font-size: 2rem;
 }
 
@@ -136,7 +148,7 @@ code {
   padding: 0px 0;
 }
 .ct-socials li a {
-  background: #16222a;
+  background: var(--gradient-start);
   font-size: 1.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,4 +164,191 @@ code {
   height: 70px;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
+}
+
+.ct-socials li a:hover {
+  background: var(--gradient-end);
+}
+
+.sep-txt {
+  position: relative;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sep-txt span:before,
+.sep-txt span:after {
+  content: "";
+  height: 3px;
+  width: 15%;
+  display: inline-block;
+  margin: 0 1%;
+  background-color: var(--accent-color);
+  position: relative;
+  top: -6px;
+}
+
+.timeline-title {
+  font-size: 1.8rem;
+}
+
+.active.vertical-timeline-element .vertical-timeline-element-date {
+  color: black;
+  font-weight: bold;
+}
+
+.timeline-subtitle {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+.vertical-timeline-element:not(.active) .timeline-subtitle {
+  color: #747d8c;
+}
+
+.timeline-subtitle-2 {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.vertical-timeline-element:not(.active) .timeline-subtitle2 {
+  color: #57606f;
+}
+
+.skill-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.skill-container div {
+  margin: 2%;
+}
+
+.indicator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: -5%;
+  left: -2%;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  user-select: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.indicator .tech-icons {
+  font-size: 3rem;
+  transition: transform .2s; /* Animation */
+}
+
+.indicator .tech-icons:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.nav-links a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--gradient-start) !important;
+  padding: 10px 25px 10px 25px;
+}
+
+.navbar-nav a:hover {
+  background-color: var(--gradient-end);
+  color: white !important;
+  border-radius: 40px;
+}
+
+#contacts {
+  padding-bottom: 10%;
+}
+
+.form-container {
+  position: relative;
+}
+
+.form-container .inner-form-container {
+  width: 50%;
+  position: relative;
+  margin: auto;
+  padding-bottom: 10%;
+}
+
+#contact-form .btn {
+  float: right;
+  background-color: var(--gradient-start);
+  border-color: var(--gradient-end);
+}
+
+@media only screen and (max-width: 600px) {
+  .form-container .inner-form-container {
+    width: 80%;
+  }
+
+  .nav-links a {
+    padding: 15px 10px;
+    color: white !important;
+  }
+
+  .nav-links a:first-child {
+    margin-top: 20px;
+  }
+
+  .nav-links a:last-child {
+    margin-bottom: 20px;
+  }
+
+  .navbar-nav a:hover {
+    background-color: white ;
+    color: var(--gradient-start) !important;
+    border-radius: 0;
+  }
+
+  .nav-links a.active {
+    color: white;
+  }
+
+  .nav-links {
+    color: white;
+  }
+
+  .navbar-section {
+    background: var(--gradient-start); /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to left,
+      var(--gradient-start),
+      var(--gradient-end)
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to left,
+      var(--gradient-start),
+      var(--gradient-end)
+    );
+  }
+  .logo {
+    content: url("https://drive.google.com/uc?id=1mhOBW0DSDsN9dRAGrI4JoqsyMFHiJ3BC");
+  }
+
+  .form-container .inner-form-container {
+    width: 70%;
+  }
+
+  .active.vertical-timeline-element .vertical-timeline-element-date {
+    color: black;
+  }
+
+  .navbar-toggler{
+    border-color: white !important;
+  }
+
+  .menu-icon {
+    color: white;
+    font-size: 1.5rem;
+  }
 }
