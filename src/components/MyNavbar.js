@@ -1,7 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import { BsFillXDiamondFill, BsBriefcase, BsPhone, BsViewList } from "react-icons/bs";
-import { SiCastbox } from "react-icons/si";
 import { Link } from "react-scroll";
 
 const MyNavbar = () => {
@@ -9,7 +8,7 @@ const MyNavbar = () => {
         <Navbar expand="lg" fixed="top" className="navbar-section">
             <Navbar.Brand>
                 <Link to="home" spy={true} smooth={true} duration={500} offset={-60}>
-                    <img src="https://drive.google.com/uc?id=18mfqWkOV2BvCil3qWlVXcsh0xlE6GQA-" className="logo" alt="Abhishek Kumar Upadhyay"/>
+                    <img src="https://drive.google.com/uc?id=18mfqWkOV2BvCil3qWlVXcsh0xlE6GQA-" className="logo" alt="Abhishek Kumar Upadhyay" />
                 </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
