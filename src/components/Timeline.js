@@ -17,10 +17,10 @@ const Timeline = () => {
 
                             <VerticalTimelineElement key={duration}
                                 className={active ? `vertical-timeline-element--${type} active` : `vertical-timeline-element--${type}`}
-                                contentStyle={active ? { background: '#f5a25d', color: '#fff' } : {}}
-                                contentArrowStyle={active ? { borderRight: '7px solid  #f5a25d' } : {}}
+                                contentStyle={active ? { background: '#C33764', color: '#fff' } : {}}
+                                contentArrowStyle={active ? { borderRight: '7px solid  #C33764' } : {}}
                                 date={duration}
-                                iconStyle={{ background: '#C33764', color: '#fff' }}
+                                iconStyle={{ background: '#1D2671', color: '#fff' }}
                                 icon={type === 'work' ? <FaCity /> : <FaGraduationCap />}
                             >
                                 <h3 className="vertical-timeline-element-title timeline-title">{role}</h3>
@@ -38,7 +38,7 @@ const Timeline = () => {
                     })
                 }
                 <VerticalTimelineElement
-                    iconStyle={{ background: '#3a6073', color: '#fff' }}
+                    iconStyle={{ background: '#1D2671', color: '#fff' }}
                     icon={<FaStar />}
                 />
             </VerticalTimeline>

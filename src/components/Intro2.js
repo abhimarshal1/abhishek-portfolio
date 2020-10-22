@@ -1,4 +1,5 @@
 import React from 'react'
+import { GoSmiley } from "react-icons/go";
 
 const Intro2 = () => {
     return (
@@ -15,7 +16,7 @@ const Intro2 = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12 intro-section">
                     <div className="intro-summary">
                         <div>
-                            <h5>Hello there!</h5>
+                            <h5><GoSmiley /> Hello there!</h5>
                             <p className="intro-name">Thank you for visiting my space</p>
                             <p>
                                 Born and brought up in the beautiful city <em>Ranchi</em>,

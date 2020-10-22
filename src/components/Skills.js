@@ -38,7 +38,7 @@ const Skills = () => {
                                     radius={100}
                                     progress={score}
                                     strokeWidth={15}
-                                    strokeColor="#f5a25d"
+                                    strokeColor="#ff5722"
                                     strokeLinecap="round"
                                     trackStrokeWidth={10}
                                     counterClockwise
