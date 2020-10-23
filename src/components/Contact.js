@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="sep-txt text-center pt-4 pb-5">
                 <span>Contact Me</span>
             </div>
-            <div className="form-container pb-5 mb-5">
+            <div className="form-container mb-5">
                 <div className="inner-form-container">
                     <form id="contact-form" onSubmit={()=> true}>
                         <div className="form-group">

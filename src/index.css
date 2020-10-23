@@ -251,7 +251,7 @@ body {
 
 .indicator .tech-icons {
   font-size: 4rem;
-  transition: transform 0.2s; /* Animation */
+  transition: transform 0.2s;
 }
 
 @keyframes wobble-horizontal {
@@ -314,6 +314,35 @@ body {
   float: right;
   background-color: var(--gradient-start);
   border-color: var(--gradient-end);
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-section a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.footer-section div {
+  padding: 20px 50px;
+  color: white;
+  font-size: 2.2rem;
+  transition: transform 0.2s;
+}
+
+.footer-section div:hover {
+  animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    transform: rotate(360deg);
+  }
 }
 
 @media only screen and (max-width: 768px) {

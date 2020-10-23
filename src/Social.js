@@ -2,16 +2,19 @@ import React from 'react'
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Social = () => {
+    const fbLink= 'https://www.facebook.com/abhi.marshal';
+    const linkedinLink = 'https://www.linkedin.com/in/abhishek-k-upadhyay/';
+    const githubLink = 'https://github.com/abhimarshal1';
     return (
         <ul className="ct-socials">
             <li>
-                <a href="https://www.facebook.com/abhi.marshal" rel="noopener noreferrer" target="_blank"><FaFacebook /></a>
+                <a href={fbLink} rel="noopener noreferrer" target="_blank"><FaFacebook /></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/abhishek-k-upadhyay/" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a>
+                <a href={linkedinLink} rel="noopener noreferrer" target="_blank"><FaLinkedin /></a>
             </li>
             <li>
-                <a href="https://github.com/abhimarshal1" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
+                <a href={githubLink} rel="noopener noreferrer" target="_blank"><FaGithub /></a>
             </li>
         </ul>
     )
