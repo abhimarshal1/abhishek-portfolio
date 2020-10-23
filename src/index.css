@@ -103,13 +103,18 @@ body {
 }
 
 .intro-summary {
-  /* text-align: center; */
+  text-align: justify;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 2rem;
   color: white;
   width: 95%;
+  margin-right: 20%;
+}
+
+.summary-content li {
+  text-align: justify;
 }
 
 .intro-summary div {
@@ -376,4 +381,9 @@ body {
     color: white;
     font-size: 1.5rem;
   }
+
+  .intro-summary {
+  width: 95%;
+  margin-right: 0;
+}
 }

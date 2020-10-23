@@ -26,7 +26,7 @@ const Timeline = () => {
                                 <h3 className="vertical-timeline-element-title timeline-title">{role}</h3>
                                 <h4 className="vertical-timeline-element-subtitle timeline-subtitle">{organization}</h4>
                                 <h5 className="vertical-timeline-element-subtitle timeline-subtitle-2">{`${team}, ${location}`}</h5>
-                                <ul className="pt-3">
+                                <ul className="pt-3 summary-content">
                                     {details.map((task, index) => {
                                         return (<li key={index} dangerouslySetInnerHTML={{
                                             __html: task

@@ -17,7 +17,7 @@ const Intro2 = () => {
                     <div className="intro-summary">
                         <div>
                             <h5><GoSmiley /> Hello there!</h5>
-                            <p className="intro-name">Thank you for visiting my space</p>
+                            <p className="intro-name">Thank you for visiting my space.</p>
                             <p>
                                 Born and brought up in the beautiful city <em>Ranchi</em>,
                                 I did my schooling from the city itself then went on to <em>THE PINK CITY,
@@ -26,8 +26,7 @@ const Intro2 = () => {
                                 <em> Computer Science and Engineering</em> from <em>Amity University Rajasthan</em>.
                                 Have been a scholar for all the 4 years. I am a genuine cricket lover, be it have to
                                 played or watched, I am up for it anytime. Being a gadget and tech enthusiast, I follow
-                                a lot blogs related to them and prefer staying updated about whats happening around the world
-
+                                a lot blogs related to them and prefer staying updated about whats happening around the world.
                             </p>
                         </div>
                     </div>

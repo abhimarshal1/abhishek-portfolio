@@ -46,7 +46,7 @@ export const experience = [
         location: 'Jaipur, IN',
         active: false,
         details: [
-            "Secured <strong>8.41</strong> CGPA",
+            "Secured <strong>8.41</strong> CGPA.",
             "Availed <strong>merit scholarship</strong> for all the 4 years."]
     },
     {
@@ -58,7 +58,7 @@ export const experience = [
         location: 'Ramgarh, IN',
         active: false,
         details: [
-            "Secured <strong>87%</strong> in the board exam",
+            "Secured <strong>87%</strong> in the board exam.",
             "Was school's second topper."]
     },
     {
@@ -70,7 +70,7 @@ export const experience = [
         location: 'Ramgarh, IN',
         active: false,
         details: [
-            "Secured <strong>9.8 CGPA</strong> in the board exam",
+            "Secured <strong>9.8 CGPA</strong> in the board exam.",
             "Was school's second topper."]
     }
 ]
