@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
-import { BsFillXDiamondFill, BsBriefcase, BsPhone, BsViewList } from "react-icons/bs";
+import { BsFillXDiamondFill, BsBriefcase, BsPhone, BsViewList, BsDownload } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const MyNavbar = () => {
@@ -19,6 +19,7 @@ const MyNavbar = () => {
                     <Link to="workexperience" spy={true} smooth={true} duration={500} offset={-60}><BsBriefcase /> Experiences</Link>
                     <Link to="skills" spy={true} smooth={true} duration={500} offset={-60}><BsFillXDiamondFill /> Skills</Link>
                     <Link to="contact" spy={true} smooth={true} duration={500} offset={-60}><BsPhone /> Contact Me</Link>
+                    <a href="https://drive.google.com/uc?export=download&id=13QeYjwjoohqTza4QmpgD29Pcp3zJ97d6"><BsDownload /> Resume</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
