@@ -8,12 +8,12 @@ const Intro2 = () => {
                 <span>About</span>
             </div>
             <div className="row intro2-row">
-                <div className="col-lg-6 col-md-6 col-sm-12 intro-section">
+                <div className="col-lg-6 col-md-12 col-sm-12 intro-section">
                     <div className="picture-container">
                         <img src="https://drive.google.com/uc?id=1XNFytauagrPxRQ4nkye7GF5bVUukBltt" alt="Abhishek" id="intro-picture" />
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-12 intro-section">
+                <div className="col-lg-6 col-md-12 col-sm-12 intro-section">
                     <div className="intro-summary">
                         <div>
                             <h5><GoSmiley /> Hello there!</h5>
