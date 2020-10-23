@@ -27,6 +27,7 @@ body {
 .logo {
   width: 120px;
   margin-left: 5%;
+  cursor: pointer;
 }
 
 .intro-image img {
