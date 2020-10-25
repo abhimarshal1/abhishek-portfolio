@@ -25,33 +25,35 @@ const Skills = () => {
 
     return (
         <section className='intro-2' id="skills">
-            <div className="sep-txt text-center pt-4 text-white">
-                <span>Skills</span>
-            </div>
-            <div className="item skill-container">
-                {
-                    skills.map(({ name, score, icon }) => {
-                        const TagName = components[icon];
-                        return (
-                            <div key={name}>
-                                <ProgressBar
-                                    radius={100}
-                                    progress={score}
-                                    strokeWidth={15}
-                                    strokeColor="#ff5722"
-                                    strokeLinecap="round"
-                                    trackStrokeWidth={10}
-                                    counterClockwise
-                                >
-                                    <div className="indicator">
-                                        <div className="tech-icons"><TagName /></div>
-                                        <div>{name}</div>
-                                    </div>
-                                </ProgressBar>
-                            </div>
-                        )
-                    })
-                }
+            <div className="skill-content">
+                <div className="sep-txt text-center pt-4 text-white">
+                    <span>Skills</span>
+                </div>
+                <div className="item skill-container">
+                    {
+                        skills.map(({ name, score, icon }) => {
+                            const TagName = components[icon];
+                            return (
+                                <div key={name}>
+                                    <ProgressBar
+                                        radius={100}
+                                        progress={score}
+                                        strokeWidth={15}
+                                        strokeColor="#ff5722"
+                                        strokeLinecap="round"
+                                        trackStrokeWidth={10}
+                                        counterClockwise
+                                    >
+                                        <div className="indicator">
+                                            <div className="tech-icons"><TagName /></div>
+                                            <div>{name}</div>
+                                        </div>
+                                    </ProgressBar>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
             </div>
         </section>
     )

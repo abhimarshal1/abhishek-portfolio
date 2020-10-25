@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
-import { BsFillXDiamondFill, BsBriefcase, BsPhone, BsViewList, BsDownload } from "react-icons/bs";
+import { BsXDiamond, BsBriefcase, BsViewList, BsDownload, BsInfoCircle } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const MyNavbar = () => {
@@ -26,9 +26,9 @@ const MyNavbar = () => {
             </Navbar.Toggle>
             <Navbar.Collapse className="justify-content-end">
                 <Nav className="ml-auto nav-links" onClick={closeNav}>
+                    <Link to="about" onClick={closeNav} spy={true} smooth={true} duration={500} offset={-60}><BsInfoCircle /> About</Link>
                     <Link to="workexperience" onClick={closeNav} spy={true} smooth={true} duration={500} offset={-60}><BsBriefcase /> Experiences</Link>
-                    <Link to="skills" onClick={closeNav} spy={true} smooth={true} duration={500} offset={-50}><BsFillXDiamondFill /> Skills</Link>
-                    <Link to="contact" onClick={closeNav} spy={true} smooth={true} duration={500} offset={-60}><BsPhone /> Contact Me</Link>
+                    <Link to="skills" onClick={closeNav} spy={true} smooth={true} duration={500} offset={-50}><BsXDiamond /> Skills</Link>
                     <a href="https://drive.google.com/uc?export=download&id=13QeYjwjoohqTza4QmpgD29Pcp3zJ97d6"><BsDownload /> Resume</a>
                 </Nav>
             </Navbar.Collapse>
