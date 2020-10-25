@@ -29,7 +29,7 @@ const MyNavbar = () => {
                     <Link to="about" onClick={closeNav} spy={true} smooth={true} duration={500} offset={-60}><BsInfoCircle /> About</Link>
                     <Link to="workexperience" onClick={closeNav} spy={true} smooth={true} duration={500} offset={-60}><BsBriefcase /> Experiences</Link>
                     <Link to="skills" onClick={closeNav} spy={true} smooth={true} duration={500} offset={-50}><BsXDiamond /> Skills</Link>
-                    <a href="https://drive.google.com/uc?export=download&id=13QeYjwjoohqTza4QmpgD29Pcp3zJ97d6"><BsDownload /> Resume</a>
+                    <a href="https://drive.google.com/uc?export=download&id=1v4gRIcCoLihOdeumxMyKUeT2FRkpCHHT"><BsDownload /> Resume</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
