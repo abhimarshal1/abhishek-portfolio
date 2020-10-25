@@ -1,5 +1,4 @@
 import React from 'react'
-import { GoSmiley } from "react-icons/go";
 
 const Intro2 = () => {
     return (
@@ -17,7 +16,7 @@ const Intro2 = () => {
                     <div className="col-lg-6 col-md-12 col-sm-12 intro-section">
                         <div className="intro-summary" id="intro">
                             <div>
-                                <h5><GoSmiley style={{ color: 'white' }} /><span className="greet"> Hello there !</span></h5>
+                                <h5><span className="greet"> Hello there !</span></h5>
                                 <p className="intro-name">Thank you for visiting my space.</p>
                                 <p className="intro-content">
                                     Born and brought up in the beautiful city <strong>Ranchi</strong>,
@@ -25,8 +24,9 @@ const Intro2 = () => {
                                 Jaipur</strong> to pursue something which has given me my true identity today.
                                 Yes! you guessed it right- <strong>ENGINEERING</strong>. I have done my bachelors in
                                 <strong> Computer Science and Engineering</strong> from <strong>Amity University Rajasthan</strong>.
-                                Have been a scholar for all the 4 years. I am a genuine cricket lover, I am up for it anytime. Being a gadget and tech enthusiast, I follow
-                                 lots of blogs related and prefer staying up-to-date about what's happening around the world.
+                                Have been a scholar for all the 4 years. I am a Tech enthusiast who is passionate about learning new technologies. 
+                                Along with that I follow lots of related blogs and prefer staying up-to-date about what's
+                                happening around the world. I am a die-hard cricket fan as well. 
                             </p>
                             </div>
                         </div>
