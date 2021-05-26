@@ -1,12 +1,26 @@
 export const experience = [
     {
-        duration : 'May, 2019 - Present',
+        duration : 'Dec, 2020 - Present',
+        type: 'work',
+        organization : 'Cashfree Payments',
+        role: 'Frontend Engineer II',
+        team: 'Payouts Team',
+        location: 'Bengaluru, IN',
+        active: true,
+        details: [
+            "Worked on migrating the Payout Merchant Dashboard from PHP stack to <strong>React</strong>. It involved developing dozens of screens based on UX designs.",
+            "Developed and maintained design library for common components used across variety of products that cashfree has to offer. <strong>Date Filters</strong> , customised <strong>Dropdowns</strong> , <strong>Account Switchers</strong>, <strong>OTP Modals</strong> to name a few.",
+            "Developed customised charts on top of <strong>re-charts</strong> library which are being used across analytics screen of merchant dashboard. Designed and Developed <strong>Two factor Authentication flow</strong> for user for individual actions that the user performs on the merchant dashboard.",
+        ]
+    },
+    {
+        duration : 'May, 2019 - Dec, 2020',
         type: 'work',
         organization : 'Qubole Softwares',
         role: 'Member Of Technical Staff',
         team: 'ETL/EAM Team',
         location: 'Bengaluru, IN',
-        active: true,
+        active: false,
         details: [
             "Developed CLI application using <strong>Golang</strong> and Cobra library for ops to determine instance capacity for different tiers of application over <strong>AWS</strong>.",
             "Delivered core features like <strong>Airflow Git Integration</strong>, added support for <strong>Hive ACID</strong> as sink on Qubole's offering on streaming Data.",
