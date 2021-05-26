@@ -7,7 +7,7 @@ const Intro1 = () => {
                 <div className='col-lg-6 col-md-6 col-sm-12 my-intro'>
                     <div className="p-5">
                         <h4>I'm Abhishek</h4>
-                        <h6>Front-End Developer | CLI Developer</h6>
+                        <h6>Front-End Developer</h6>
                     </div>
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-12 intro-image'>
