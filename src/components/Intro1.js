@@ -11,7 +11,7 @@ const Intro1 = () => {
                     </div>
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-12 intro-image'>
-                    <img src="https://drive.google.com/uc?id=1CVGYliWR8GzK_DF31tY-T3xur3VIhk3F" alt="Abhishek" />
+                    <img src="https://drive.google.com/uc?id=1REZ5BitqgxvOAdgeuiGS2GX7Jve1w_uq" alt="Abhishek" />
                 </div>
             </div>
         </section>
